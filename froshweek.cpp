@@ -28,12 +28,10 @@ int main(){
 
   for (int i = n-1; i>=0; i--){
     tasksQ.push(tasks[i]);
-    //cout << "Task "+ to_string(i) +": " << tasks[i] << endl;
   }
 
   for (int i = m-1; i>=0; i--){
     quietQ.push(quiet[i]);
-    //cout << "Quiet "+ to_string(i) +": " << quiet[i] << endl;
   }
 
   int cont=0;
